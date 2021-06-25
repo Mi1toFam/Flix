@@ -16,6 +16,13 @@ The following **required** functionality is complete:
 - [x] User sees an error message when there's a networking error.
 - [x] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
 
+**NOTE**: Since this was created on MacinCloud and required an internet connection to work on, I was not able to test the functionality of the 
+networking error message. Also, I was unable to utilize the Network Link Conditioner on MacinCloud either. 
+However, I did implement it into my code, as shown below. 
+
+<img width="443" alt="NetworkError" src="https://user-images.githubusercontent.com/65626248/123491581-013e0180-d5e5-11eb-84e7-dc7e1049befb.PNG">
+
+
 The following **optional** features are implemented:
 
 - [x] User can tap a poster in the collection view to see a detail screen of that movie
@@ -56,6 +63,8 @@ Scrolling through the collection, along with clicking on posters to view the det
 Describe any challenges encountered while building the app.
 
 ## Credits
+
+- [MacinCloud](https://www.macincloud.com/) - Mac environment for Windows
 
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
 
